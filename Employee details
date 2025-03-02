@@ -1,0 +1,13 @@
+CREATE DATABASE company;
+CREATE TABLE Employee(
+EmployeeID int primary key,
+EmployeeName varchar(25) not null,
+ContactName varchar(25),
+PhoneNumber int unique,
+city varchar(25)
+); 
+INSERT INTO Employee VALUES(1,"ASHWINI","ASHU",74,"MANDYA");
+INSERT INTO Employee VALUES(2,"sharu","shari",83,"blore");
+INSERT INTO Employee VALUES(3,"sandeep","sandu",67,"mysore");
+INSERT INTO Employee VALUES(4,"pani","pani",56,"mangalore");
+SELECT*FROM Employee;
